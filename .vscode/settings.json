@@ -1,0 +1,64 @@
+{
+    "editor": {
+        "rulers": [
+            100
+        ],
+        "tabSize": 2,
+        "formatOnType": true
+    },
+    "files": {
+        "exclude": {
+            "**/.git": true,
+            "**/.svn": true,
+            "**/.hg": true,
+            "**/.DS_Store": true
+        },
+        "eol": "\r\n",
+        "trimTrailingWhitespace": true,
+        "autoSave": "afterDelay",
+        "watcherExclude": {
+            "**/.git/objects/**": true,
+            "**/node_modules/**": true
+        }
+    },
+    "search": {
+        "exclude": {
+            "**/node_modules": true,
+            "**/bower_components": false
+        }
+    },
+    "html": {
+        "format": {
+            "indentInnerHtml": false,
+            "preserveNewLines": true,
+            "endWithNewline": true,
+            "extraLiners": ""
+        }
+    },
+    "json": {
+        "schemas": []
+    },
+    "typescript": {
+        "typescript.tsdk": null,
+        "tsserver": {
+            "trace": "off",
+            "experimentalAutoBuild": true
+        },
+        "validate": {
+            "enable": {
+                "typescript.validate.enable": true
+            }
+        },
+        "format": {
+            "insertSpaceAfterCommaDelimiter": true,
+            "insertSpaceAfterSemicolonInForStatements": true,
+            "insertSpaceBeforeAndAfterBinaryOperators": true,
+            "insertSpaceAfterKeywordsInControlFlowStatements": true,
+            "insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+            "insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+            "insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
+            "placeOpenBraceOnNewLineForFunctions": false,
+            "placeOpenBraceOnNewLineForControlBlocks": false
+        }
+    }
+}
